@@ -3,11 +3,11 @@
     "name": "9am"
   },
   "name": "ehost",
-  "description": "switch host config",
+  "description": "switch host by config files",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/9am/ehost.git"
   },
   "main": "./src/index.js",
   "keywords": [

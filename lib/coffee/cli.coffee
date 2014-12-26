@@ -6,10 +6,10 @@ start = (argv) ->
     program
         .version "0.0.1"
         .option "-l, --list", "list all host files"
-        .option "-c, --current", "current host"
+        .option "-c, --current", "print current host"
         .option "-v, --view <name or *number>", "view host file by num or name"
-        .option "-a, --add <name>", "add host file"
-        .option "-r, --remove <name or *number>", "remove host file by num or name"
+        # .option "-a, --add <name>", "add host file"
+        # .option "-r, --remove <name or *number>", "remove host file by num or name"
         .option "-s, --select <names or *numbers, seperate with ','>", "set host active", util.list
         .parse argv
 
