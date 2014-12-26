@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "9am"
+  },
+  "name": "ehost",
+  "description": "switch host config",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "./src/index.js",
+  "keywords": [
+    "host",
+    "switch"
+  ],
+  "dependencies": {
+    "commander": ">=2.5.1"
+  },
+  "bin": {
+    "ehost": "./bin/ehost"
+  },
+  "scripts": {
+  },
+  "engines": {
+    "node": "*"
+  }
+}
