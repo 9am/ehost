@@ -4,7 +4,7 @@
   },
   "name": "ehost",
   "description": "switch host by config files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/9am/ehost.git"
