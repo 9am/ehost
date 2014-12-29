@@ -21,7 +21,10 @@ setSystemHost = (fd) ->
 
 # 获取用户的host配置列表
 getConfigList = () ->
-    fs.readdirSync URL.HOSTCONF_DIR
+    files = fs.readdirSync URL.HOSTCONF_DIR
+    # 去掉系统自动生成的文件
+    files.filter (item, i) ->
+        item[0] isnt "."
 
 # 获取用户的host配置文件
 getConfigFile = (name) ->

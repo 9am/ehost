@@ -4,13 +4,13 @@ util = require "./util"
 
 start = (argv) ->
     program
-        .version "0.0.1"
+        .version "0.0.2"
         .option "-l, --list", "list all host files"
         .option "-c, --current", "print current host"
-        .option "-v, --view <name or *number>", "view host file by num or name"
+        .option "-v, --view <name or *number>", "view host file"
         # .option "-a, --add <name>", "add host file"
         # .option "-r, --remove <name or *number>", "remove host file by num or name"
-        .option "-s, --select <names or *numbers, seperate with ','>", "set host active", util.list
+        .option "-s, --select <name or *number>", "set host active", util.list
         .parse argv
 
     if program.list
