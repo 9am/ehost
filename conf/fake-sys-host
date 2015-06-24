@@ -1,0 +1,5 @@
+#default
+127.0.0.1 loaclhost
+
+#host1
+127.0.0.1 host1

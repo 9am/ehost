@@ -1,28 +1,33 @@
 {
-  "author": {
-    "name": "9am"
-  },
   "name": "ehost",
+  "version": "1.0.0",
   "description": "switch host by config files",
-  "version": "0.0.2",
+  "keywords": [
+    "host",
+    "switch",
+    "config"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/9am/ehost.git"
   },
-  "main": "./src/index.js",
-  "keywords": [
-    "host",
-    "switch"
-  ],
+  "main": "./lib/index.js",
   "dependencies": {
-    "commander": ">=2.5.1"
+    "commander": "^2.6.0"
+  },
+  "devDependencies": {
+    "mock-fs": "^2.5.0"
   },
   "bin": {
     "ehost": "./bin/ehost"
   },
   "scripts": {
+    "test": "jasmine-node spec/"
   },
-  "engines": {
-    "node": "*"
-  }
+  "keywords": [
+    "host",
+    "config",
+    "switch"
+  ],
+  "author": "9am"
 }

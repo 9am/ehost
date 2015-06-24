@@ -1,5 +1,5 @@
 #! /usr/bin/env node
 
-var ehost = require('../lib/js/cli');
+var ehost = require('../lib/cli');
 
-ehost.start(process.argv);
+ehost.start(process);

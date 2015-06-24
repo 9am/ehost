@@ -1,15 +1,18 @@
 ehost
-=====
+====================
 
-ehost是一个修改host配置的命令行工具
+Switch host by config files.
 
-安装
-> npm install ehost -g
+Install
+--------------------
+> npm install ehost -g<br />
 
-使用
-> ehost -h
-> 查看可用的命令
+Usage
+--------------------
+> ehost -h<br />
+> check available commands<br />
 
-配置
-> 在安装路径下的lib/config.js中
-> 可以配置系统host文件路径
+Config
+--------------------
+> add or remove host config file in conf/hosts/<br />
+> custom system host file dir in lib/config.js<br />
